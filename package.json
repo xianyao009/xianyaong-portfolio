@@ -1,20 +1,28 @@
 {
   "name": "xianyaong-portfolio",
   "version": "0.1.0",
+  "description": "Xian Yao Ng's personal portfolio website.",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write ."
   },
+  "author": "Xian Yao Ng<yao009@hotmail.com>",
   "dependencies": {
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.5.1",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.20.0",
-    "eslint-config-next": "12.2.3"
+    "eslint": "^8.20.0",
+    "eslint-config-next": "^12.2.3",
+    "prettier": "^2.7.1"
   }
 }
