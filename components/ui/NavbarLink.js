@@ -21,7 +21,7 @@ const NavbarLink = (props) => {
       <a>
         <Box
           as={motion.h1}
-          color={useColorModeValue("gray.500", "whiteAlpha.900")}
+          color={useColorModeValue("gray.500", "whiteAlpha.800")}
           fontFamily="Verdana, sans-serif"
           fontSize={15}
           fontWeight="bold"
@@ -29,6 +29,7 @@ const NavbarLink = (props) => {
           variants={navbarLinkVariants}
           whileHover={{
             scale: 1.1,
+            textShadow: "0px 0px 8px rgb(255,255,255)",
           }}
         >
           {props.text}
