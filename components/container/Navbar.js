@@ -1,6 +1,6 @@
 import Logo from "../ui/Logo";
-import DarkModeToggleButton from "../ui/DarkModeToggleButton";
-import { Box, Stack, Flex, Heading, useColorModeValue } from "@chakra-ui/react";
+import ColorModeToggleButton from "../ui/ColorModeToggleButton";
+import { Box, Stack, Flex, useColorModeValue } from "@chakra-ui/react";
 import NavbarLink from "../ui/NavbarLink";
 
 const Navbar = () => {
@@ -22,6 +22,10 @@ const Navbar = () => {
             <NavbarLink href="/work" text="Work"></NavbarLink>
             <NavbarLink href="/contact" text="Contact"></NavbarLink>
           </Stack>
+
+          <Box mr={5}>
+            <ColorModeToggleButton />
+          </Box>
         </Flex>
       </Box>
     </>
