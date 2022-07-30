@@ -1,20 +1,38 @@
 import Link from "next/link";
-import { Text, useColorModeValue } from "@chakra-ui/react";
+import { Box, useColorModeValue } from "@chakra-ui/react";
+import { motion } from "framer-motion";
+
+const navbarLinkVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      ease: "easeInOut",
+    },
+  },
+};
 
 const NavbarLink = (props) => {
   return (
     <Link href={props.href}>
       <a>
-        <Text
+        <Box
+          as={motion.h1}
           color={useColorModeValue("gray.500", "whiteAlpha.900")}
           fontFamily="Verdana, sans-serif"
           fontSize={15}
           fontWeight="bold"
           p={6}
-          _hover={{ color: "gray.800" }}
+          variants={navbarLinkVariants}
+          whileHover={{
+            scale: 1.1,
+          }}
         >
           {props.text}
-        </Text>
+        </Box>
       </a>
     </Link>
   );
