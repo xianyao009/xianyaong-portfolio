@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { Box, useColorModeValue } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
@@ -16,12 +17,17 @@ const navbarLinkVariants = {
 };
 
 const NavbarLink = (props) => {
+  const router = useRouter();
+  const isActive = router.pathname === props.href;
+  const activeColor = useColorModeValue("gray.800", "orange.200");
+  const inactiveColor = useColorModeValue("gray.500", "whiteAlpha.800");
+
   return (
     <Link href={props.href}>
       <a>
         <Box
           as={motion.h1}
-          color={useColorModeValue("gray.500", "whiteAlpha.800")}
+          color={isActive ? activeColor : inactiveColor}
           fontFamily="Verdana, sans-serif"
           fontSize={15}
           fontWeight="bold"
