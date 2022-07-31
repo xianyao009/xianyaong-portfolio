@@ -2,13 +2,7 @@ import Logo from "../ui/Logo";
 import SocialMediaIcon from "../ui/SocialMediaIcon";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
-import {
-  Container,
-  Stack,
-  ButtonGroup,
-  Divider,
-  Text,
-} from "@chakra-ui/react";
+import { Container, Stack, ButtonGroup, Divider, Text } from "@chakra-ui/react";
 
 const footerVariants = {
   offscreen: {
