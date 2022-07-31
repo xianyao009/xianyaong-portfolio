@@ -11,8 +11,8 @@ const ColorModeToggleButton = () => {
         style={{ display: "inline-block" }}
         key={useColorModeValue("light", "dark")}
         initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1, rotate: 180 }}
-        transition={{ duration: 0.5 }}
+        animate={{ opacity: 1, scale: 1, rotate: 360 }}
+        transition={{ duration: 0.7 }}
       >
         <IconButton
           aria-label="Toggle color mode"

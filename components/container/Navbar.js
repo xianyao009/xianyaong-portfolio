@@ -11,6 +11,7 @@ import {
   MenuButton,
   IconButton,
   Link,
+  Divider,
   useColorModeValue,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
@@ -88,6 +89,7 @@ const Navbar = () => {
             </Box>
           </Box>
         </Flex>
+        <Divider borderColor={useColorModeValue("gray.300", "gray.700")} />
       </Box>
     </>
   );

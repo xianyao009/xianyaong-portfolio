@@ -19,7 +19,7 @@ const navbarLinkVariants = {
 const NavbarLink = (props) => {
   const router = useRouter();
   const isActive = router.pathname === props.href;
-  const activeColor = useColorModeValue("gray.800", "orange.200");
+  const activeColor = useColorModeValue("gray.900", "orange.200");
   const inactiveColor = useColorModeValue("gray.500", "whiteAlpha.800");
 
   return (
