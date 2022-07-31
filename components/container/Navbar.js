@@ -26,6 +26,8 @@ const navbarVariants = {
     y: 0,
     opacity: 1,
     transition: {
+      duration: 0.4,
+      staggerChildren: 0.2,
       when: "beforeChildren",
     },
   },
@@ -45,7 +47,7 @@ const Navbar = () => {
         animate="visible"
       >
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-          <Box>
+          <Box ml={7}>
             <Logo />
           </Box>
 

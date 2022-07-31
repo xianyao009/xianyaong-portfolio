@@ -27,7 +27,6 @@ const Logo = () => {
             fontSize={22}
             fontWeight="bold"
             letterSpacing={"tighter"}
-            ml={7}
             variants={logoVariants}
             whileHover={{
               scale: 1.1,
