@@ -1,4 +1,5 @@
 import Logo from "../ui/Logo";
+import SocialMediaIcon from "../ui/SocialMediaIcon";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
 import {
@@ -40,26 +41,23 @@ const Footer = () => {
           <Stack justify="space-between" direction="row" align="center">
             <Logo />
             <ButtonGroup variant="ghost">
-              <IconButton
-                as="a"
+              <SocialMediaIcon
                 href="https://www.linkedin.com/in/xianyaong"
-                target="_blank"
-                aria-label="linkedIn"
-                icon={<FaLinkedin fontSize="1.25rem" />}
+                label="linkedin"
+                icon={FaLinkedin}
+                iconSize="1.25rem"
               />
-              <IconButton
-                as="a"
+              <SocialMediaIcon
                 href="https://www.github.com/xianyao009"
-                target="_blank"
-                aria-label="gitHub"
-                icon={<FaGithub fontSize="1.25rem" />}
+                label="github"
+                icon={FaGithub}
+                iconSize="1.25rem"
               />
-              <IconButton
-                as="a"
+              <SocialMediaIcon
                 href="https://www.facebook.com/xianyao009"
-                target="_blank"
-                aria-label="facebook"
-                icon={<FaFacebook fontSize="1.25rem" />}
+                label="facebook"
+                icon={FaFacebook}
+                iconSize="1.25rem"
               />
             </ButtonGroup>
           </Stack>

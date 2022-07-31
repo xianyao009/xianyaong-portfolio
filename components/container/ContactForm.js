@@ -1,5 +1,6 @@
+import SocialMediaIcon from "../ui/SocialMediaIcon";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-import {ArrowForwardIcon} from "@chakra-ui/icons";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import {
   Container,
   Center,
@@ -36,26 +37,23 @@ const Form = () => {
                   </Text>
                   <Box mt={{ lg: 12, md: 10 }} align="center">
                     <ButtonGroup variant="ghost">
-                      <IconButton
-                        as="a"
+                      <SocialMediaIcon
                         href="https://www.linkedin.com/in/xianyaong"
-                        target="_blank"
-                        aria-label="linkedIn"
-                        icon={<FaLinkedin fontSize="2rem" />}
+                        label="linkedin"
+                        icon={FaLinkedin}
+                        iconSize="2rem"
                       />
-                      <IconButton
-                        as="a"
+                      <SocialMediaIcon
                         href="https://www.github.com/xianyao009"
-                        target="_blank"
-                        aria-label="github"
-                        icon={<FaGithub fontSize="2rem" />}
+                        label="github"
+                        icon={FaGithub}
+                        iconSize="2rem"
                       />
-                      <IconButton
-                        as="a"
+                      <SocialMediaIcon
                         href="https://www.facebook.com/xianyao009"
-                        target="_blank"
-                        aria-label="facebook"
-                        icon={<FaFacebook fontSize="2rem" />}
+                        label="facebook"
+                        icon={FaFacebook}
+                        iconSize="2rem"
                       />
                     </ButtonGroup>
                   </Box>
@@ -68,11 +66,14 @@ const Form = () => {
                     <InputGroup>
                       <Input
                         variant="filled"
-                        focusBorderColor={useColorModeValue("gray.800", "gray.400")}
+                        focusBorderColor={useColorModeValue(
+                          "gray.800",
+                          "gray.400"
+                        )}
                         type="text"
                         name="name"
                         placeholder="John Doe"
-                        _placeholder={{ opacity: 0.3, color: 'inherit' }}
+                        _placeholder={{ opacity: 0.3, color: "inherit" }}
                       />
                     </InputGroup>
                   </FormControl>
@@ -81,11 +82,14 @@ const Form = () => {
                     <InputGroup>
                       <Input
                         variant="filled"
-                        focusBorderColor={useColorModeValue("gray.800", "gray.400")}
+                        focusBorderColor={useColorModeValue(
+                          "gray.800",
+                          "gray.400"
+                        )}
                         type="email"
                         name="email"
                         placeholder="john.doe@gmail.com"
-                        _placeholder={{ opacity: 0.3, color: 'inherit' }}
+                        _placeholder={{ opacity: 0.3, color: "inherit" }}
                       />
                     </InputGroup>
                   </FormControl>
@@ -94,11 +98,14 @@ const Form = () => {
                     <InputGroup>
                       <Input
                         variant="filled"
-                        focusBorderColor={useColorModeValue("gray.800", "gray.400")}
+                        focusBorderColor={useColorModeValue(
+                          "gray.800",
+                          "gray.400"
+                        )}
                         type="text"
                         name="subject"
                         placeholder="Subject"
-                        _placeholder={{ opacity: 0.3, color: 'inherit' }}
+                        _placeholder={{ opacity: 0.3, color: "inherit" }}
                       />
                     </InputGroup>
                   </FormControl>
@@ -106,15 +113,22 @@ const Form = () => {
                     <FormLabel>Message</FormLabel>
                     <Textarea
                       variant="filled"
-                      focusBorderColor={useColorModeValue("gray.800", "gray.400")}
+                      focusBorderColor={useColorModeValue(
+                        "gray.800",
+                        "gray.400"
+                      )}
                       name="message"
                       placeholder="Type your message here"
-                      _placeholder={{ opacity: 0.3, color: 'inherit' }}
+                      _placeholder={{ opacity: 0.3, color: "inherit" }}
                     />
                   </FormControl>
                   <FormControl id="sendButton">
-                    <Button mt={2} variant="outline" rightIcon={<ArrowForwardIcon />}>
-                        Send
+                    <Button
+                      mt={2}
+                      variant="outline"
+                      rightIcon={<ArrowForwardIcon />}
+                    >
+                      Send
                     </Button>
                   </FormControl>
                 </Stack>
