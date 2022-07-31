@@ -38,8 +38,8 @@ const Navbar = () => {
         as={motion.nav}
         position="fixed"
         w="100%"
-        bg={useColorModeValue('#ffffff40', "#20202380")}
-        backdropFilter='blur(7px)' 
+        bg={useColorModeValue("#ffffff40", "#20202380")}
+        backdropFilter="blur(7px)"
         variants={navbarVariants}
         initial="hidden"
         animate="visible"
