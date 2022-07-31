@@ -1,41 +1,10 @@
+import ContactForm from "../../components/container/ContactForm";
+import Content from "../../components/container/Content";
+
 const contact = () => {
   return (
     <>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
-      <h1>Contact page</h1>
+      <Content content={<ContactForm />} />
     </>
   );
 };
