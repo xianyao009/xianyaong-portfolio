@@ -8,7 +8,6 @@ import {
   ButtonGroup,
   Divider,
   Text,
-  IconButton,
 } from "@chakra-ui/react";
 
 const footerVariants = {
