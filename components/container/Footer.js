@@ -44,21 +44,21 @@ const Footer = () => {
                 as="a"
                 href="https://www.linkedin.com/in/xianyaong"
                 target="_blank"
-                aria-label="LinkedIn"
+                aria-label="linkedIn"
                 icon={<FaLinkedin fontSize="1.25rem" />}
               />
               <IconButton
                 as="a"
                 href="https://www.github.com/xianyao009"
                 target="_blank"
-                aria-label="GitHub"
+                aria-label="gitHub"
                 icon={<FaGithub fontSize="1.25rem" />}
               />
               <IconButton
                 as="a"
                 href="https://www.facebook.com/xianyao009"
                 target="_blank"
-                aria-label="Facebook"
+                aria-label="facebook"
                 icon={<FaFacebook fontSize="1.25rem" />}
               />
             </ButtonGroup>

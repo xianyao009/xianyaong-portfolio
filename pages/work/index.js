@@ -1,50 +1,9 @@
+import Content from "../../components/container/Content";
+
 const work = () => {
   return (
     <>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
-      <h1>Work page</h1>
+      <Content content={<h1>asdasd</h1>} />
     </>
   );
 };

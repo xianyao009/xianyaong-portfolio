@@ -1,50 +1,9 @@
+import Content from "../../components/container/Content";
+
 const about = () => {
   return (
     <>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>
-        About pageAbout pageAbout pageAbout pageAbout pageAbout pageAbout
-        pageAbout pageAbout pageAbout pageAbout pageAbout pageAbout pageAbout
-        pageAbout page
-      </h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
-      <h1>About page</h1>
+      <Content content={<h1>asdasd</h1>} />
     </>
   );
 };

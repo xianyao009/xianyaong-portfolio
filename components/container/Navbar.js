@@ -41,6 +41,7 @@ const Navbar = () => {
         as={motion.nav}
         position="fixed"
         w="100%"
+        zIndex={2}
         bg={useColorModeValue("#ffffff40", "#20202380")}
         backdropFilter="blur(7px)"
         variants={navbarVariants}
