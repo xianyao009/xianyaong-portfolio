@@ -5,7 +5,6 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { useForm } from "react-hook-form";
 import {
   Container,
-  Center,
   Button,
   Box,
   ButtonGroup,
@@ -50,16 +49,15 @@ const Form = () => {
   return (
     <>
       <Container mt={10} maxW="full" centerContent>
-        <Center>
           <Box color={useColorModeValue("gray.800", "whiteAlpha.900")}>
-            <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
+            <Wrap spacing={{ base: 20, sm: 5, md: 5, lg: 20 }}>
               <WrapItem>
                 <Box>
                   <Heading>Get In Touch</Heading>
                   <Text color="gray.400" mt={{ sm: 3, md: 3, lg: 5 }}>
                     Fill up the form to contact me
                   </Text>
-                  <Box mt={{ lg: 12, md: 10 }} align="center">
+                  <Box mt={12} align="center">
                     <ButtonGroup variant="ghost">
                       <SocialMediaIcon
                         href="https://www.linkedin.com/in/xianyaong"
@@ -155,7 +153,6 @@ const Form = () => {
               </WrapItem>
             </Wrap>
           </Box>
-        </Center>
       </Container>
     </>
   );
