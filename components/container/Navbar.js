@@ -59,8 +59,9 @@ const Navbar = () => {
             flexGrow={1}
             ml={100}
           >
-            <NavbarLink href="/about" text="About"></NavbarLink>
-            <NavbarLink href="/work" text="Work"></NavbarLink>
+            <NavbarLink href="/projects" text="Projects"></NavbarLink>
+            <NavbarLink href="/skills" text="Skills"></NavbarLink>
+            <NavbarLink href="/experience" text="Experience"></NavbarLink>
             <NavbarLink href="/contact" text="Contact"></NavbarLink>
           </Stack>
 
@@ -76,11 +77,14 @@ const Navbar = () => {
                   variant="outline"
                 />
                 <MenuList>
-                  <NextLink href="/about">
-                    <MenuItem as={Link}>About</MenuItem>
+                  <NextLink href="/projects">
+                    <MenuItem as={Link}>Projects</MenuItem>
                   </NextLink>
-                  <NextLink href="/work">
-                    <MenuItem as={Link}>Work</MenuItem>
+                  <NextLink href="/skills">
+                    <MenuItem as={Link}>Skills</MenuItem>
+                  </NextLink>
+                  <NextLink href="/experience">
+                    <MenuItem as={Link}>Experience</MenuItem>
                   </NextLink>
                   <NextLink href="/contact">
                     <MenuItem as={Link}>Contact</MenuItem>

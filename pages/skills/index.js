@@ -1,11 +1,11 @@
 import Content from "../../components/container/Content";
 
-const work = () => {
+const skills = () => {
   return (
     <>
-      <Content content={<h1>asdasd</h1>} />
+      <Content content={<h1>Skills</h1>} />
     </>
   );
 };
 
-export default work;
+export default skills;
