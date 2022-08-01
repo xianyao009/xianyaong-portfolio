@@ -1,6 +1,8 @@
+import axios from "axios";
 import SocialMediaIcon from "../ui/SocialMediaIcon";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
+import { useForm } from "react-hook-form";
 import {
   Container,
   Center,
@@ -13,14 +15,38 @@ import {
   FormControl,
   FormLabel,
   Input,
-  InputGroup,
   Stack,
   Text,
   Textarea,
   useColorModeValue,
+  useToast,
 } from "@chakra-ui/react";
 
 const Form = () => {
+  const {
+    handleSubmit,
+    register,
+    formState: { errors, isSubmitting },
+  } = useForm();
+
+  const toast = useToast();
+
+  async function onSubmit(values) {
+    const url = "/api/contact";
+    await axios.post(url, values).then((response) => {
+      if (isSubmitting === false && response.status === 200) {
+        toast({
+          title: "Message sent.",
+          description: "Thanks!",
+          status: "success",
+          duration: 5000,
+          position: "top",
+          isClosable: true,
+        });
+      }
+    });
+  }
+
   return (
     <>
       <Container mt={10} maxW="full" centerContent>
@@ -58,56 +84,50 @@ const Form = () => {
                 </Box>
               </WrapItem>
               <WrapItem>
-                <Stack spacing={3}>
-                  <FormControl id="name" isRequired>
+                <Stack as="form" spacing={3} onSubmit={handleSubmit(onSubmit)}>
+                  <FormControl isRequired>
                     <FormLabel>Name</FormLabel>
-                    <InputGroup>
-                      <Input
-                        variant="filled"
-                        focusBorderColor={useColorModeValue(
-                          "gray.800",
-                          "gray.400"
-                        )}
-                        type="text"
-                        name="name"
-                        placeholder="John Doe"
-                        _placeholder={{ opacity: 0.3, color: "inherit" }}
-                      />
-                    </InputGroup>
+                    <Input
+                      variant="filled"
+                      focusBorderColor={useColorModeValue(
+                        "gray.800",
+                        "gray.400"
+                      )}
+                      type="text"
+                      placeholder="John Doe"
+                      _placeholder={{ opacity: 0.3, color: "inherit" }}
+                      {...register("name")}
+                    />
                   </FormControl>
-                  <FormControl id="email" isRequired>
+                  <FormControl isRequired>
                     <FormLabel>Email</FormLabel>
-                    <InputGroup>
-                      <Input
-                        variant="filled"
-                        focusBorderColor={useColorModeValue(
-                          "gray.800",
-                          "gray.400"
-                        )}
-                        type="email"
-                        name="email"
-                        placeholder="john.doe@gmail.com"
-                        _placeholder={{ opacity: 0.3, color: "inherit" }}
-                      />
-                    </InputGroup>
+                    <Input
+                      variant="filled"
+                      focusBorderColor={useColorModeValue(
+                        "gray.800",
+                        "gray.400"
+                      )}
+                      type="email"
+                      placeholder="john.doe@gmail.com"
+                      _placeholder={{ opacity: 0.3, color: "inherit" }}
+                      {...register("email")}
+                    />
                   </FormControl>
-                  <FormControl id="subject" isRequired>
+                  <FormControl isRequired>
                     <FormLabel>Subject</FormLabel>
-                    <InputGroup>
-                      <Input
-                        variant="filled"
-                        focusBorderColor={useColorModeValue(
-                          "gray.800",
-                          "gray.400"
-                        )}
-                        type="text"
-                        name="subject"
-                        placeholder="Subject"
-                        _placeholder={{ opacity: 0.3, color: "inherit" }}
-                      />
-                    </InputGroup>
+                    <Input
+                      variant="filled"
+                      focusBorderColor={useColorModeValue(
+                        "gray.800",
+                        "gray.400"
+                      )}
+                      type="text"
+                      placeholder="Subject"
+                      _placeholder={{ opacity: 0.3, color: "inherit" }}
+                      {...register("subject")}
+                    />
                   </FormControl>
-                  <FormControl id="message" isRequired>
+                  <FormControl isRequired>
                     <FormLabel>Message</FormLabel>
                     <Textarea
                       variant="filled"
@@ -115,16 +135,18 @@ const Form = () => {
                         "gray.800",
                         "gray.400"
                       )}
-                      name="message"
                       placeholder="Type your message here"
                       _placeholder={{ opacity: 0.3, color: "inherit" }}
+                      {...register("message")}
                     />
                   </FormControl>
-                  <FormControl id="sendButton">
+                  <FormControl>
                     <Button
                       mt={2}
                       variant="outline"
                       rightIcon={<ArrowForwardIcon />}
+                      type="submit"
+                      isLoading={isSubmitting}
                     >
                       Send
                     </Button>
