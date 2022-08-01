@@ -29,7 +29,7 @@ const Footer = () => {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <Divider w="100%" borderColor="gray.400" />
+        <Divider w="100%" borderColor="gray.400" mt={40} />
         <Stack spacing={{ base: "4", md: "5" }} mt={12}>
           <Stack justify="space-between" direction="row" align="center">
             <Logo />
