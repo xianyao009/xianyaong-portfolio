@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Container } from "@chakra-ui/react";
 
 const variants = {
   hidden: { opacity: 0, x: 0, y: -20 },
@@ -8,14 +9,16 @@ const variants = {
 const Content = (props) => {
   return (
     <>
-      <motion.div
-        initial="hidden"
-        animate="enter"
-        variants={variants}
-        transition={{ duration: 0.4, delay: 0.2, type: "easeInOut" }}
-      >
-        {props.content}
-      </motion.div>
+      <Container mt={10} maxW="full" centerContent>
+        <motion.div
+          initial="hidden"
+          animate="enter"
+          variants={variants}
+          transition={{ duration: 0.4, delay: 0.2, type: "easeInOut" }}
+        >
+          {props.content}
+        </motion.div>
+      </Container>
     </>
   );
 };
