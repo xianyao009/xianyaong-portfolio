@@ -3,8 +3,9 @@
 www.xianyaong.com
 
 ## Languages/Tools/Frameworks/Libraries used
+
 - [JavaScript](https://www.javascript.com/) - A dynamic programming language that is used for web development, for game development, and lots more.
-(Planning to switch to TypeScript in the future)
+  (Planning to switch to TypeScript in the future)
 - [React](https://www.reactjs.org/) - A JavaScript library for building user interfaces
 - [Node.js](https://www.nodejs.org/) - An asynchronous event-driven back-end JavaScript runtime environment
 - [Chakra UI](https://www.chakra-ui.com/) - A modern component library for React
