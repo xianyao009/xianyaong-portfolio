@@ -1,9 +1,10 @@
+import SkillsContainer from "../../components/container/SkillsContainer";
 import Content from "../../components/container/Content";
 
 const skills = () => {
   return (
     <>
-      <Content content={<h1>Skills</h1>} />
+      <Content content={<SkillsContainer />} />
     </>
   );
 };

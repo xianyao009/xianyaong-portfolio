@@ -4,7 +4,6 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { useForm } from "react-hook-form";
 import {
-  Container,
   Button,
   Box,
   ButtonGroup,
