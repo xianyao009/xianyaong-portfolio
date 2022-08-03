@@ -1,22 +1,14 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Text,
-  Stack,
-  Link,
-  Icon,
-} from "@chakra-ui/react";
+import { Box, Button, Heading, Text, Stack, Link } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HomeContainer = () => {
   return (
-    <Stack spacing={2} alignItems="center" mt={20}>
+    <Stack spacing={2} alignItems="center" mt={16}>
       <Heading size="md" fontWeight="light">
         Hi, I&apos;m
       </Heading>
       <Heading size="3xl">Xian Yao</Heading>
-      <Box w="50%">
+      <Box w="80%">
         <Text pt={4}>
           I&apos;m currently working as a Software Engineer Co-op at{" "}
           <Link

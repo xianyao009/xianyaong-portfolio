@@ -9,7 +9,7 @@ const variants = {
 const Content = (props) => {
   return (
     <>
-      <Container mt={10} maxW="full" centerContent>
+      <Container mt={10} centerContent maxW="2xl">
         <motion.div
           initial="hidden"
           animate="enter"
