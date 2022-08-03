@@ -34,7 +34,7 @@ const ExperienceContainer = () => {
                     initial={{ opacity: 0, x: 0, y: -20 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                     transition={{
-                      duration: 0.4,
+                      duration: 0.5,
                       type: "easeInOut",
                     }}
                   >
@@ -63,7 +63,7 @@ const ExperienceContainer = () => {
                     initial={{ opacity: 0, x: 0, y: -20 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                     transition={{
-                      duration: 0.4,
+                      duration: 0.5,
                       type: "easeInOut",
                     }}
                   >
