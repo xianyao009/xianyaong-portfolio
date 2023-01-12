@@ -13,7 +13,7 @@
   "author": "Xian Yao Ng<yao009@hotmail.com>",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.4",
-    "@chakra-ui/react": "^2.2.4",
+    "@chakra-ui/react": "^2.4.6",
     "@fontsource/crete-round": "^4.5.7",
     "@sendgrid/mail": "^7.7.0",
     "axios": "^0.27.2",
