@@ -23,7 +23,7 @@ const ExperienceContainer = () => {
       <Box mt={10}>
         <Tabs colorScheme="gray" isFitted isLazy>
           <TabList>
-            <Tab>Canalyst</Tab>
+            <Tab>Canalyst/Tegus</Tab>
             <Tab>Noratek Solutions Inc</Tab>
           </TabList>
           <Box mt={3}>
@@ -39,7 +39,7 @@ const ExperienceContainer = () => {
                     }}
                   >
                     <Heading size="sm">Software Engineer Co-op</Heading>
-                    <Text fontSize={14}>May 2022 - Present</Text>
+                    <Text fontSize={14}>May 2022 - December 2022</Text>
                     <List styleType="disc" spacing={2} mt={5}>
                       <ListItem>
                         Developed and maintained C# and Node.js application for
