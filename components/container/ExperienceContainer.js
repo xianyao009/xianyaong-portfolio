@@ -86,7 +86,9 @@ const ExperienceContainer = () => {
                         Refactored original functionalities to accommodate
                         software design changes and added unit tests
                       </ListItem>
-                      <Text as="i" fontSize={14}>* Canalyst was acquired by Tegus in August 2022</Text>
+                      <Text as="i" fontSize={14}>
+                        * Canalyst was acquired by Tegus in August 2022
+                      </Text>
                     </List>
                   </motion.div>
                 </TabPanel>
