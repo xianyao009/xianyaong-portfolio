@@ -35,7 +35,7 @@ const Form = () => {
       await axios.post(url, values);
       toast({
         title: "Message sent.",
-        description: "Thanks!",
+        description: "Thank you for reaching out!",
         status: "success",
         duration: 5000,
         position: "top",
@@ -59,9 +59,9 @@ const Form = () => {
       <Wrap spacing={{ base: 6, md: 12 }} justify="center">
         <WrapItem>
           <Box>
-            <Heading>Get In Touch</Heading>
+            <Heading>Contact Me</Heading>
             <Text color="gray.400" mt={4}>
-              Fill up the form to contact me
+              Have any questions? Fill up the form.
             </Text>
             <ButtonGroup variant="ghost" mt={8}>
               <SocialMediaIcon
@@ -107,6 +107,15 @@ const Form = () => {
                 placeholder="john.doe@gmail.com"
                 _placeholder={{ opacity: 0.3, color: "inherit" }}
                 {...register("email")}
+              />
+            </FormControl>
+            <FormControl>
+              <FormLabel>Company</FormLabel>
+              <Input
+                variant="filled"
+                focusBorderColor={useColorModeValue("gray.800", "gray.400")}
+                type="text"
+                {...register("company")}
               />
             </FormControl>
             <FormControl isRequired>
