@@ -76,12 +76,6 @@ const Form = () => {
                 icon={FaGithub}
                 iconSize="2rem"
               />
-              <SocialMediaIcon
-                href="https://www.facebook.com/xianyao009"
-                label="facebook"
-                icon={FaFacebook}
-                iconSize="2rem"
-              />
             </ButtonGroup>
           </Box>
         </WrapItem>

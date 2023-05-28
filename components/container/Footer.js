@@ -46,12 +46,6 @@ const Footer = () => {
                 icon={FaGithub}
                 iconSize="1.25rem"
               />
-              <SocialMediaIcon
-                href="https://www.facebook.com/xianyao009"
-                label="facebook"
-                icon={FaFacebook}
-                iconSize="1.25rem"
-              />
             </ButtonGroup>
           </Stack>
           <Text fontSize="sm" color="gray.400">
