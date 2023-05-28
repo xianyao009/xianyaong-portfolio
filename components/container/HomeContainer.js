@@ -10,11 +10,14 @@ const HomeContainer = () => {
       <Heading size="3xl">Xian Yao</Heading>
       <Box w="80%">
         <Text pt={4}>
-          I&apos;m a final year Computer Science student at{" "}
+          I&apos;m a final year Computer Science student at the{" "}
           <Link as="a" href="https://www.uvic.ca" color="blue.400" isExternal>
             University of Victoria
           </Link>
-          , Canada.
+          , Canada and a software engineer co-op at{" "}
+          <Link as="a" href="https://www.tegus.com" color="blue.400" isExternal>
+            Tegus
+          </Link>
         </Text>
       </Box>
       <Stack direction="row" pt={7}>
