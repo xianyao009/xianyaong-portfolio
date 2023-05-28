@@ -9,6 +9,7 @@ const handler = async (req, res) => {
     www.xianyaong.com\r\n
     Name: ${body.name}\r\n
     Email: ${body.email}\r\n
+    Company: ${body.company}\r\n
     Message: ${body.message}
   `;
 
