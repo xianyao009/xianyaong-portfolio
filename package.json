@@ -16,6 +16,7 @@
     "@chakra-ui/react": "^2.4.6",
     "@fontsource/crete-round": "^4.5.7",
     "@sendgrid/mail": "^7.7.0",
+    "@vercel/analytics": "^1.0.1",
     "axios": "^0.27.2",
     "framer-motion": "^6.5.1",
     "next": "12.2.3",
