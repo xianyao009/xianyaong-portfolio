@@ -40,22 +40,21 @@ const ExperienceContainer = () => {
                     }}
                   >
                     <Heading size="sm">Software Engineer Co-op</Heading>
+                    <Text fontSize={14}>May 2023 - Present (August 2023)</Text>
                     <Text fontSize={14}>September 2022 - December 2022</Text>
-                    <Text fontSize={14}>May 2023 - August 2023</Text>
                     <List styleType="disc" spacing={2} mt={5}>
                       <ListItem>
-                        Developed and maintained C# and Node.js application for
-                        financial analysts to ensure consistency and accuracy
-                        across public equity models.
+                        Developed and maintained C#/.NET application for clients
+                        to update their customized financial models
                       </ListItem>
                       <ListItem>
-                        Used HTML, CSS and Typescript to create an Excel Office
-                        Add-in with custom functions for clients to pull
-                        financial information from Tegus’s proprietary API
+                        Ensured code quality by participating in code reviews,
+                        adding unit tests and refactoring
                       </ListItem>
                       <ListItem>
-                        Refactored original functionalities to accommodate
-                        software design changes and added unit tests
+                        Collaborated with a senior software engineer to develop
+                        a robust smoke testing runner for the C# updater
+                        application
                       </ListItem>
                     </List>
                   </motion.div>
@@ -73,18 +72,19 @@ const ExperienceContainer = () => {
                     <Text fontSize={14}>May 2022 - August 2022</Text>
                     <List styleType="disc" spacing={2} mt={5}>
                       <ListItem>
-                        Developed and maintained C# and Node.js application for
-                        financial analysts to ensure consistency and accuracy
-                        across public equity models.
+                        Developed and maintained both an executable application
+                        and VSTO using C# to automate financial model
+                        customizations and updating for investors as earnings
+                        are released
                       </ListItem>
                       <ListItem>
-                        Used HTML, CSS and Typescript to create an Excel Office
-                        Add-in with custom functions for clients to pull
-                        financial information from Canalyst’s proprietary API
+                        Used React, TypeScript to create an Excel Office Add-in
+                        with custom functions for clients to pull financial
+                        information from Canalyst's proprietary API
                       </ListItem>
                       <ListItem>
-                        Refactored original functionalities to accommodate
-                        software design changes and added unit tests
+                        Completed code reviews to ensure code quality and
+                        correctness of code
                       </ListItem>
                       <Text as="i" fontSize={14}>
                         * Canalyst was acquired by Tegus in August 2022
