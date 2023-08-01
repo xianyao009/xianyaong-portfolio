@@ -1,4 +1,4 @@
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "../components/container/Layout";
 import { ChakraProvider } from "@chakra-ui/react";
 import theme from "../components/Theme";

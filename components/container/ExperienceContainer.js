@@ -80,7 +80,7 @@ const ExperienceContainer = () => {
                       <ListItem>
                         Used React, TypeScript to create an Excel Office Add-in
                         with custom functions for clients to pull financial
-                        information from Canalyst's proprietary API
+                        information from Canalyst&apos;s proprietary API
                       </ListItem>
                       <ListItem>
                         Completed code reviews to ensure code quality and
