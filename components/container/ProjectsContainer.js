@@ -31,7 +31,7 @@ const ProjectsContainer = () => {
               </Link>
               <Text>
                 A personal portfolio website showcasing my projects, skills, and
-                experiences, built with Next.js, Chakra UI, and Framer Motion.
+                experiences, built with React, Next.js, and Chakra UI.
               </Text>
             </Stack>
           </CardBody>
@@ -52,7 +52,7 @@ const ProjectsContainer = () => {
               <Heading>Taskdone To-do List</Heading>
               <Text>
                 A simple and intuitive to-do list web application, built with
-                Next.js and Chakra UI.
+                React, Next.js and Chakra UI.
               </Text>
             </Stack>
           </CardBody>
