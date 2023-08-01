@@ -11,7 +11,6 @@ import { motion } from "framer-motion";
 import {
   DiJava,
   DiGithubBadge,
-  DiJsBadge,
   DiReact,
   DiGit,
   DiNodejs,
@@ -21,6 +20,7 @@ import {
   SiVisualstudiocode,
   SiPostgresql,
   SiMongodb,
+  SiJavascript,
   SiTypescript,
   SiCsharp,
   SiNextdotjs,
@@ -55,7 +55,7 @@ const SkillsContainer = () => {
           align="center"
           w="100px"
         >
-          <Icon as={DiJsBadge} boxSize={24} />
+          <Icon as={SiJavascript} boxSize={24} />
           <Text>JavaScript</Text>
         </Box>
         <Box
