@@ -8,8 +8,28 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import { DiJsBadge, DiReact, DiGit, DiNodejs, DiMongodb } from "react-icons/di";
-import { SiCsharp, SiNextdotjs, SiChakraui, SiHtml5 } from "react-icons/si";
+import {
+  DiJava,
+  DiGithubBadge,
+  DiJsBadge,
+  DiReact,
+  DiGit,
+  DiNodejs,
+} from "react-icons/di";
+import {
+  SiVisualstudio,
+  SiVisualstudiocode,
+  SiPostgresql,
+  SiMongodb,
+  SiTypescript,
+  SiCsharp,
+  SiNextdotjs,
+  SiChakraui,
+  SiHtml5,
+  SiCss3,
+  SiIntellijidea,
+} from "react-icons/si";
+import { AiFillGitlab } from "react-icons/ai";
 
 const SkillsContainer = () => {
   const gridColumns = useBreakpointValue({ base: 2, md: 4 });
@@ -26,6 +46,15 @@ const SkillsContainer = () => {
           align="center"
           w="100px"
         >
+          <Icon as={SiCsharp} boxSize={24} />
+          <Text>C#</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
           <Icon as={DiJsBadge} boxSize={24} />
           <Text>JavaScript</Text>
         </Box>
@@ -35,8 +64,17 @@ const SkillsContainer = () => {
           align="center"
           w="100px"
         >
-          <Icon as={SiCsharp} boxSize={24} />
-          <Text>C#</Text>
+          <Icon as={SiTypescript} boxSize={24} />
+          <Text>TypeScript</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={DiJava} boxSize={24} />
+          <Text>Java</Text>
         </Box>
         <Box
           as={motion.div}
@@ -53,35 +91,17 @@ const SkillsContainer = () => {
           align="center"
           w="100px"
         >
+          <Icon as={SiCss3} boxSize={24} />
+          <Text>CSS3</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
           <Icon as={DiReact} boxSize={24} />
           <Text>React</Text>
-        </Box>
-        <Box
-          as={motion.div}
-          whileHover={{ scale: 1.1 }}
-          align="center"
-          w="100px"
-        >
-          <Icon as={DiNodejs} boxSize={24} />
-          <Text>Node.js</Text>
-        </Box>
-        <Box
-          as={motion.div}
-          whileHover={{ scale: 1.1 }}
-          align="center"
-          w="100px"
-        >
-          <Icon as={DiGit} boxSize={24} />
-          <Text>Git</Text>
-        </Box>
-        <Box
-          as={motion.div}
-          whileHover={{ scale: 1.1 }}
-          align="center"
-          w="100px"
-        >
-          <Icon as={DiMongodb} boxSize={24} />
-          <Text>MongoDB</Text>
         </Box>
         <Box
           as={motion.div}
@@ -100,6 +120,88 @@ const SkillsContainer = () => {
         >
           <Icon as={SiChakraui} boxSize={24} />
           <Text>Chakra UI</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={DiNodejs} boxSize={24} />
+          <Text>Node.js</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={SiMongodb} boxSize={24} />
+          <Text>MongoDB</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={SiPostgresql} boxSize={24} />
+          <Text>PostgreSQL</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={DiGit} boxSize={24} />
+          <Text>Git</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={AiFillGitlab} boxSize={24} />
+          <Text>GitLab</Text>
+        </Box>
+
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={DiGithubBadge} boxSize={24} />
+          <Text>GitHub</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={SiVisualstudio} boxSize={24} />
+          <Text>Visual Studio</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={SiVisualstudiocode} boxSize={24} />
+          <Text>VS Code</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={SiIntellijidea} boxSize={24} />
+          <Text>IntelliJ IDEA</Text>
         </Box>
       </SimpleGrid>
     </>
