@@ -14,10 +14,9 @@ const HomeContainer = () => {
           <Link as="a" href="https://www.uvic.ca" color="blue.400" isExternal>
             University of Victoria
           </Link>
-          , Canada and a software engineer co-op at{" "}
-          <Link as="a" href="https://www.tegus.com" color="blue.400" isExternal>
-            Tegus
-          </Link>
+          , Canada, driven by a passion for technology and innovation. Aspiring
+          to become a skilled software engineer, I'm on a journey to create,
+          innovate, and contribute to the digital world.
         </Text>
       </Box>
       <Stack direction="row" pt={7}>

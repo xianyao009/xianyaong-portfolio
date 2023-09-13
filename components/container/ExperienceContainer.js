@@ -40,7 +40,7 @@ const ExperienceContainer = () => {
                     }}
                   >
                     <Heading size="sm">Software Engineer Co-op</Heading>
-                    <Text fontSize={14}>May 2023 - Present (August 2023)</Text>
+                    <Text fontSize={14}>May 2023 - August 2023</Text>
                     <Text fontSize={14}>September 2022 - December 2022</Text>
                     <List styleType="disc" spacing={2} mt={5}>
                       <ListItem>
