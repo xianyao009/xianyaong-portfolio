@@ -15,8 +15,8 @@ const HomeContainer = () => {
             University of Victoria
           </Link>
           , Canada, driven by a passion for technology and innovation. Aspiring
-          to become a skilled software engineer, I'm on a journey to create,
-          innovate, and contribute to the digital world.
+          to become a skilled software engineer, I&apos;m on a journey to
+          create, innovate, and contribute to the digital world.
         </Text>
       </Box>
       <Stack direction="row" pt={7}>

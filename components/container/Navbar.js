@@ -78,16 +78,16 @@ const Navbar = () => {
                 />
                 <MenuList>
                   <NextLink href="/projects">
-                    <MenuItem as={Link}>Projects</MenuItem>
+                    <MenuItem>Projects</MenuItem>
                   </NextLink>
                   <NextLink href="/skills">
-                    <MenuItem as={Link}>Skills</MenuItem>
+                    <MenuItem>Skills</MenuItem>
                   </NextLink>
                   <NextLink href="/experience">
-                    <MenuItem as={Link}>Experience</MenuItem>
+                    <MenuItem>Experience</MenuItem>
                   </NextLink>
                   <NextLink href="/contact">
-                    <MenuItem as={Link}>Contact</MenuItem>
+                    <MenuItem>Contact</MenuItem>
                   </NextLink>
                 </MenuList>
               </Menu>
