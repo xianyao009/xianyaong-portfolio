@@ -10,13 +10,10 @@ const HomeContainer = () => {
       <Heading size="3xl">Xian Yao</Heading>
       <Box w="80%">
         <Text pt={4}>
-          I&apos;m a final year Computer Science student at the{" "}
-          <Link as="a" href="https://www.uvic.ca" color="blue.400" isExternal>
-            University of Victoria
-          </Link>
-          , Canada, driven by a passion for technology and innovation. Aspiring
-          to become a skilled software engineer, I&apos;m on a journey to
-          create, innovate, and contribute to the digital world.
+          Recent Computer Science graduate with expertise in software
+          engineering. Proven ability to design and implement innovative
+          solutions. Eager to contribute technical skills and knowledge to
+          dynamic projects and teams.
         </Text>
       </Box>
       <Stack direction="row" pt={7}>
