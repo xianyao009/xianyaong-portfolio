@@ -10,10 +10,13 @@ const HomeContainer = () => {
       <Heading size="3xl">Xian Yao</Heading>
       <Box w="80%">
         <Text pt={4}>
-          Recent Computer Science graduate with expertise in software
-          engineering. Proven ability to design and implement innovative
-          solutions. Eager to contribute technical skills and knowledge to
-          dynamic projects and teams.
+          Motivated and dedicated Software Engineer currently employed at{" "}
+          <Link as="a" href="https://www.tegus.com" color="blue.400" isExternal>
+            Tegus
+          </Link>{" "}
+          with a proven ability to design and implement innovative solutions.
+          Backed by solid internship experiences, adept at collaborating in
+          fast-paced environments to solve complex technical challenges
         </Text>
       </Box>
       <Stack direction="row" pt={7}>
