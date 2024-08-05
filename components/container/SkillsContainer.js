@@ -14,6 +14,8 @@ import {
   DiReact,
   DiGit,
   DiNodejs,
+  DiPython,
+  DiDjango,
 } from "react-icons/di";
 import {
   SiVisualstudio,
@@ -46,8 +48,35 @@ const SkillsContainer = () => {
           align="center"
           w="100px"
         >
+          <Icon as={DiPython} boxSize={24} />
+          <Text>Python</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={DiDjango} boxSize={24} />
+          <Text>Django</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
           <Icon as={SiCsharp} boxSize={24} />
           <Text>C#</Text>
+        </Box>
+        <Box
+          as={motion.div}
+          whileHover={{ scale: 1.1 }}
+          align="center"
+          w="100px"
+        >
+          <Icon as={SiPostgresql} boxSize={24} />
+          <Text>PostgreSQL</Text>
         </Box>
         <Box
           as={motion.div}
@@ -138,15 +167,6 @@ const SkillsContainer = () => {
         >
           <Icon as={SiMongodb} boxSize={24} />
           <Text>MongoDB</Text>
-        </Box>
-        <Box
-          as={motion.div}
-          whileHover={{ scale: 1.1 }}
-          align="center"
-          w="100px"
-        >
-          <Icon as={SiPostgresql} boxSize={24} />
-          <Text>PostgreSQL</Text>
         </Box>
         <Box
           as={motion.div}
