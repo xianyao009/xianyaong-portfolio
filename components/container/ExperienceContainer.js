@@ -47,12 +47,13 @@ const ExperienceContainer = () => {
                     </Text>
                     <List styleType="disc" spacing={2} mt={5}>
                       <ListItem>
-                        Developed and maintained C#/.NET application for clients
-                        to update their customized financial models
+                        Focus on managing and optimizing backend entity data
+                        using Python to support various applications and
+                        services
                       </ListItem>
                       <ListItem>
-                        Ensured code quality by participating in code reviews,
-                        adding unit tests and refactoring
+                        Improved data integrity and quality using PostgreSQL by
+                        implementing data validation checks and monitoring
                       </ListItem>
                       <Box as="br" />
                       <Divider w="100%" borderColor="gray.400" mt={40} />
