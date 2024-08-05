@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import {
   Box,
   Center,
+  Divider,
   Heading,
   List,
   ListItem,
@@ -53,6 +54,8 @@ const ExperienceContainer = () => {
                         Ensured code quality by participating in code reviews,
                         adding unit tests and refactoring
                       </ListItem>
+                      <Box as="br" />
+                      <Divider w="100%" borderColor="gray.400" mt={40} />
                     </List>
                     <Box as="br" />
                     <Heading size="md">Software Engineer Co-op</Heading>
@@ -74,6 +77,8 @@ const ExperienceContainer = () => {
                         a robust smoke testing runner for the C# updater
                         application
                       </ListItem>
+                      <Box as="br" />
+                      <Divider w="100%" borderColor="gray.400" mt={40} />
                     </List>
                     <Box as="br" />
                     <Heading size="md">Software Engineer Co-op</Heading>
@@ -123,7 +128,9 @@ const ExperienceContainer = () => {
                         Completed code reviews to ensure code quality and
                         correctness of code
                       </ListItem>
-                      <Text as="i" fontSize={14}>
+                      <Box as="br" />
+                      {/* <Divider w="100%" borderColor="gray.400" mt={40} /> */}
+                      <Text as="i" fontSize={12}>
                         * Canalyst was acquired by Tegus in August 2022
                       </Text>
                     </List>
