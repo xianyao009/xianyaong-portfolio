@@ -9,7 +9,7 @@ const HomeContainer = () => {
       </Heading>
       <Heading size="3xl">Xian Yao</Heading>
       <Box w="80%">
-        <Text pt={4}>
+        <Text pt={4} textAlign="center">
           I&apos;m a Software Engineer I at{" "}
           <Link
             as="a"
