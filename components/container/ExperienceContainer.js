@@ -42,7 +42,7 @@ const ExperienceContainer = () => {
                     }}
                   >
                     <Heading size="md">Software Engineer I</Heading>
-                    <Text fontSize={14}>January 2025 - Present</Text>
+                    <Text fontSize={14}>July 2024 - Present</Text>
                     <Text fontSize={14}>
                       Vancouver, British Columbia, Canada
                     </Text>
@@ -71,7 +71,7 @@ const ExperienceContainer = () => {
                     }}
                   >
                     <Heading size="md">Software Engineer I</Heading>
-                    <Text fontSize={14}>March 2024 - January 2025</Text>
+                    <Text fontSize={14}>March 2024 - July 2024</Text>
                     <Text fontSize={14}>
                       Vancouver, British Columbia, Canada
                     </Text>
@@ -126,6 +126,11 @@ const ExperienceContainer = () => {
                         Ensured code quality by participating in code reviews,
                         adding unit tests and refactoring
                       </ListItem>
+                      <Box as="br" />
+                      {/* <Divider w="100%" borderColor="gray.400" mt={40} /> */}
+                      <Text as="i" fontSize={12}>
+                        * Tegus was acquired by AlphaSense in July 2024
+                      </Text>
                     </List>
                   </motion.div>
                 </TabPanel>
