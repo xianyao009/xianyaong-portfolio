@@ -10,13 +10,18 @@ const HomeContainer = () => {
       <Heading size="3xl">Xian Yao</Heading>
       <Box w="80%">
         <Text pt={4}>
-          Motivated and dedicated Software Engineer currently employed at{" "}
-          <Link as="a" href="https://www.tegus.com" color="blue.400" isExternal>
-            Tegus
+          I'm a Software Engineer I at{" "}
+          <Link
+            as="a"
+            href="https://www.alpha-sense.com"
+            color="blue.400"
+            isExternal
+          >
+            AlphaSense
           </Link>{" "}
-          with a proven ability to design and implement innovative solutions.
-          Backed by solid internship experiences, adept at collaborating in
-          fast-paced environments to solve complex technical challenges
+          , focused on building innovative software solutions that help unlock
+          valuable insights. Passionate about clean code, problem-solving, and
+          continuous learning.
         </Text>
       </Box>
       <Stack direction="row" pt={7}>
