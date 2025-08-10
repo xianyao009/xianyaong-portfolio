@@ -24,6 +24,7 @@ const ExperienceContainer = () => {
       <Box mt={10}>
         <Tabs colorScheme="gray" isFitted isLazy>
           <TabList>
+            <Tab>AlphaSense</Tab>
             <Tab>Tegus</Tab>
             <Tab>Canalyst</Tab>
             <Tab>Noratek Solutions Inc</Tab>
@@ -41,7 +42,36 @@ const ExperienceContainer = () => {
                     }}
                   >
                     <Heading size="md">Software Engineer I</Heading>
-                    <Text fontSize={14}>March 2024 - Present</Text>
+                    <Text fontSize={14}>January 2025 - Present</Text>
+                    <Text fontSize={14}>
+                      Vancouver, British Columbia, Canada
+                    </Text>
+                    <List styleType="disc" spacing={2} mt={5}>
+                      <ListItem>
+                        Developed and maintained data pipelines to provide
+                        accurate and timely financial data as a vendor, enabling
+                        other teams within the company to efficiently consume
+                        and utilize this data for their services
+                      </ListItem>
+                      <ListItem>
+                        Designed and built a full-stack internal application for
+                        analysts to interact with and analyze financial filings,
+                        enhancing data accessibility and workflow efficiency.
+                      </ListItem>
+                    </List>
+                  </motion.div>
+                </TabPanel>
+                <TabPanel>
+                  <motion.div
+                    initial={{ opacity: 0, x: 0, y: -20 }}
+                    animate={{ opacity: 1, x: 0, y: 0 }}
+                    transition={{
+                      duration: 0.5,
+                      type: "easeInOut",
+                    }}
+                  >
+                    <Heading size="md">Software Engineer I</Heading>
+                    <Text fontSize={14}>March 2024 - January 2025</Text>
                     <Text fontSize={14}>
                       Vancouver, British Columbia, Canada
                     </Text>
@@ -146,19 +176,37 @@ const ExperienceContainer = () => {
                       type: "easeInOut",
                     }}
                   >
-                    <Heading size="md">Software QA Developer Co-op</Heading>
+                    <Heading size="md">Junior Software Developer Co-op</Heading>
                     <Text fontSize={14}>January 2022 - April 2022</Text>
                     <Text fontSize={14}>
                       Prince George, British Columbia, Canada
                     </Text>
                     <List styleType="disc" spacing={2} mt={5}>
                       <ListItem>
-                        Performing functional, regression, and integration
-                        testing of web applications
+                        Learned and utilized CityReporter for project tasks and
+                        development
                       </ListItem>
                       <ListItem>
-                        Executing manual and automated testing based on the
-                        understanding of the requirements
+                        Worked with the development team on a range of projects,
+                        including:
+                        <List styleType="circle" spacing={1} mt={2} ml={4}>
+                          <ListItem>
+                            Creating and updating reports using Jasper Studio.
+                          </ListItem>
+                          <ListItem>
+                            Developing and maintaining Grails applications.
+                          </ListItem>
+                          <ListItem>
+                            Enhancing Flex-based applications.
+                          </ListItem>
+                          <ListItem>
+                            Working on jQuery and Leaflet-based web
+                            applications.
+                          </ListItem>
+                          <ListItem>
+                            Developing Xamarin-based mobile applications.
+                          </ListItem>
+                        </List>
                       </ListItem>
                       <ListItem>
                         Design automated tests using TestComplete.
