@@ -59,9 +59,9 @@ const Form = () => {
       <Wrap spacing={{ base: 6, md: 12 }} justify="center">
         <WrapItem>
           <Box>
-            <Heading>Contact Me</Heading>
+            <Heading>Get in Touch</Heading>
             <Text color="gray.400" mt={4}>
-              Have any questions? Fill up the form.
+              I&apos;d love to hear from you! Whether it&apos;s a project idea, question, or just to say hi.
             </Text>
             <ButtonGroup variant="ghost" mt={8}>
               <SocialMediaIcon
